@@ -1,0 +1,15 @@
+.chatscreen {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatscreen__input {
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    margin-top: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 180px;
+    font-family: inherit;
+}
+
