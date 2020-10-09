@@ -9,12 +9,12 @@
     @include flexItemsCenter(row);
     padding-left: 180px;
     padding-right: 180px;
-    margin-top: 150px;
+    margin-bottom: 20px;
 }
 
 .message__avatar {
     display: block;
-    max-width: 20px;
+    max-width: 25px;
     border-radius: 50px;
     margin-right: 10px;
     margin-bottom: auto;

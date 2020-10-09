@@ -16,7 +16,7 @@
 
 .sidebar__title {
     font-size: 22px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -43,6 +43,7 @@
 
 .dotted-wizard {
     position: relative;
+    margin-top: 40px;
 }
 
 .list {
@@ -50,7 +51,7 @@
     display: flex;
     justify-content: space-around;
     z-index: 1;
-    margin-top: 10px;
+    //margin-top: 10px;
     width: 10%;
     position: relative;
 }
@@ -77,25 +78,9 @@
     height: 1px;
     background-color: #777;
     position: absolute;
-    top: 15px;
+    top: 5px;
     left: 10px;
 }
-
-.list__item:not(:last-child) {
-    //margin-right: 16px;
-}
-
-//.list__item:not(:last-child)::after {
-//    display: inline-flex;
-//    content: "";
-//    border: 1px solid saddlebrown;
-//    width: 100%;
-//    position: absolute;
-//    top: 50%;
-//    left: 3px;
-//}
-
-
 
 .button-wrapper {
     display: flex;
@@ -151,4 +136,9 @@
     margin-bottom: 0;
 }
 
+//@media (max-width: 1000px) {
+//    .sidebar {
+//        display: none;
+//    }
+//}
 

@@ -1,0 +1,32 @@
+.message {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 180px;
+  padding-right: 180px;
+  margin-bottom: 20px;
+}
+
+.message__avatar {
+  display: block;
+  max-width: 25px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-bottom: auto;
+}
+
+.message__content {
+  background-color: #f6f6f6;
+  padding: 12px;
+  color: #222222;
+  border-radius: 15px;
+}
+
+.message__info {
+  color: #c8c8c8;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=Message.css.map */
