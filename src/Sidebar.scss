@@ -49,10 +49,9 @@
 .list {
     padding-left: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     z-index: 1;
-    //margin-top: 10px;
-    width: 10%;
+    width: 50px;
     position: relative;
 }
 
@@ -74,12 +73,12 @@
 .dotted-wizard::after {
     display: inline-flex;
     content: "";
-    width: 7%;
+    width: 50px;
     height: 1px;
     background-color: #777;
     position: absolute;
     top: 5px;
-    left: 10px;
+    left: 0px;
 }
 
 .button-wrapper {
@@ -109,6 +108,7 @@
     display: inline-block;
     color: #777777;
     font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .sidebar__bottom {
@@ -136,9 +136,11 @@
     margin-bottom: 0;
 }
 
-//@media (max-width: 1000px) {
-//    .sidebar {
-//        display: none;
-//    }
-//}
+@media (max-width: 500px) {
+
+    .message {
+        padding-left: 20px;
+    }
+
+}
 
